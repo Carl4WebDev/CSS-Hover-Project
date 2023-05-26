@@ -1,0 +1,18 @@
+body {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.letter {
+    
+    font-size: 90px;
+    font-family: 'pacifico', cursive;
+    display: inline-block;
+    color: #999;
+    transition:  250ms all ease-in-out;
+}
+.letter.active  {
+    transform: 
+        scale(1.5)
+        rotate(20deg);
+    color: green;
+}
